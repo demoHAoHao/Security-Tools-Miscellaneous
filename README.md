@@ -25,8 +25,8 @@ DCSync 模拟
 安装后，impacket 会附带多个命令行脚本（一般安装路径 /usr/local/bin/ 或虚拟环境中）：
 
 
-脚本名称	简要说明
-psexec.py	通过 SMB 利用服务安装执行命令（远程执行，类 Meterpreter）
+# 脚本名称	简要说明
+{psexec.py	通过 SMB 利用服务安装执行命令（远程执行，类 Meterpreter）
 wmiexec.py	利用 WMI 协议远程执行命令（静默执行）
 smbexec.py	利用 SMB 管道执行命令并获取输出
 secretsdump.py	导出 LSA secrets, SAM hash, NTDS.dit 内容
@@ -36,5 +36,5 @@ GetNPUsers.py	AS-REP Roasting 工具
 dcomexec.py	使用 DCOM（如 MMC）远程执行命令
 addcomputer.py	添加计算机账户到域
 ticketconverter.py	将 kirbi 票据与 ccache 互相转换
-ticketer.py	创建自定义 Kerberos TGT（金票）
+ticketer.py	创建自定义 Kerberos TGT（金票）}
 --------------------------------------------------------------------------------------
